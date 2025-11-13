@@ -29,6 +29,17 @@ public String products;
         isopen = false;
         earnings = 0.0000000000000001;
         factoryInfo();
+        // ty[pe varName = value
+        //this is a variable so complex it would be called an object
+        //it is a variable made from a the class house
+        House h1 = new House();
+        h1.owner = "Gabriel";
+        h1.address = "1793 Canton Avenue, Milton ma, O2186";
+        h1.isoccupied = true;
+        h1.size = 115.23;
+        h1.walls = 5;
+        System.out.println("The house belongs to " + h1.owner + ". The address is " + h1.address + ". It is " + h1.isoccupied + " that the house is occupied" + " the house is " + h1.size+ " miles wide, and there are " + h1.walls+ " walls.");
+
     }
 
     public void factoryInfo()
