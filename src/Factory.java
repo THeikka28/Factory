@@ -48,11 +48,13 @@ public String products;
 
         House customhouse = new House(982.243, 3, "Jimmy Jim Bob", "637 Hollis Street", false);
         customhouse.houseInfo();
-//okay
 
+        Nation tobyland = new Nation();
+        tobyland.Strategicinfo();
 
 
     }
+
 
     public void factoryInfo()
     {
